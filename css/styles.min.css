@@ -4421,6 +4421,13 @@ html {
 .desktop .info .info-icon.shutdown:hover {
   color: #de5145;
 }
+    .desktop .info .info-icon.volumeOff:hover {
+        color: #de5145;
+    }
+
+    .desktop .info .info-icon.volumeOn:hover {
+        color: #de5145;
+    }
 .desktop .info .info-icon.fa-calculator:hover {
   color: #3cd070;
 }

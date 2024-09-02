@@ -84,11 +84,55 @@
               <!--Contents-->
               <div class="window-body game-body">
                   <div class="clearfix"></div>
-                  <p> Work in Progress...</p>
+                  <div class="explorer-icon ie rpsgame">
+                      <i class="fa fa-hand-rock-o fa-2x" aria-hidden="true"></i>
+                  </div>
+                  <p>Rock-Paper-Scissors</p>
+                  <p> More to come...</p>
                   <!--Empty for now-->
-                  
+
               </div>
           </div>
+
+          <!--Rock Paper Scissors here-->
+          <div id="rpswindow" class="explorer-window rps-explorer" tabindex="0">
+              <div class="window-header">
+                  <p class="window-title">Rock Paper Scissors</p>
+                  <div class="button-wrap close-explorer">
+                      <i class="fa fa-times"></i>
+                  </div>
+              </div>
+              <!--Contents-->
+              <div class="window-body work-body">
+                  <div class="work-item">
+                      <a class="work-link-1">
+                          You:
+                          <div id="rock" class="rock"><i class="fa fa-hand-rock-o fa-2x info-icon"></i> <br />Rock</div>
+                          <div id="paper" class="col-4"><i class="fa fa-hand-paper-o fa-2x info-icon"></i><br />Paper</div>
+                          <div id="scissors" class="col-4"><i class="fa fa-hand-peace-o fa-2x info-icon"></i><br />Scissors</div>
+                      </a>
+                  </div>
+
+                  <div class="work-item">
+                      <a class="work-link-1">
+                          <p>Results:<div id="rps-results"></div></p>
+                      </a>
+
+                  </div>
+
+                  <div class="work-item">
+                      <a class="work-link-1">
+                          Computer:
+                          <div id="com_rock" class="col-4"><i class="fa fa-hand-rock-o fa-2x info-icon"></i> <br />Rock</div>
+                          <div id="com_paper" class="col-4"><i class="fa fa-hand-paper-o fa-2x info-icon"></i><br />Paper</div>
+                          <div id="com_scissors" class="col-4"><i class="fa fa-hand-peace-o fa-2x info-icon"></i><br />Scissors</div>
+                      </a>
+
+                  </div>
+
+              </div>
+          </div>
+
           <!--Title-->
           <div class="explorer-window trash-explorer" tabindex="0">
               <div class="window-header">
@@ -198,6 +242,11 @@
 
           <audio id="artist3bgMusic" style="display:none;">
               <source src="audio/artist3.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+          </audio>
+
+          <audio id="rpsbgMusic" style="display:none;">
+              <source src="audio/rps_audio.mp3" type="audio/mp3">
               Your browser does not support the audio element.
           </audio>
 
